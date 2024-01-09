@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <div class="tombol-kontainer" id="baten">
+        <div class="tombol-besar" onclick="tampilkanAlert()">
+            <p>Click Me</p>
+            
+        </div>
+    </div>
+
+    <div class="overlay" id="fotonya">
+        <div class="aura"></div>
+        <img src="mahkota.png" alt="mahkota" id="mahkota">
+        
+        <img src="vidya.png" alt="vidyaa" id="imgbunga">
+    </div>
+
+
+
+    
+
+
+
+    <div id="overlay" class="overlay">
+        <div class="modal">
+            <p> Hai Vidya Saharani, Selamat ulang tahun yang ke 18! Gak kerasa dah makin tua aja hehe. Next aja dlu
+            </p>
+    
+           <button class="btn-lanjutkan" onclick="tampilkanAlert2()">Next</button>
+    
+        </div>
+    </div>
+
+    <div id="overlay2" class="overlay">
+        <div class="modal">
+            <p>Pertama ada pesen nih dari adjus... "HBD." Next lagi yaa</p>
+               
+           <button class="btn-lanjutkan" onclick="tampilkanAlert3()">Next</button>
+    
+        </div>
+    </div>
+    
+    <div id="overlay3" class="overlay">
+        <div class="modal">
+            <p>Kalo aku si ga banyak yaa cuma bisa doain semoga di tahun ini makin ceria, selalu panjang umur, dan dapet ngelanjutin studi sesuai keinginan. Oiya ngomongin tentang studi aku gamau banyak komentarr intinya kalau emang belum jodoh sama kampus yg dipengenin jgn mikir udh pilihan bundir, masi ada kok kampus di bali. Kuliah itu studi lanjutan yg ngefokusin ke ilmu ke suatu bidang yang bisa di realisasiin di dunia kerja, jadi kalau menurutku kampus itu ga menentukan kita jd makin pinter tergantung dari kita sendiri. Sebenernya kalau mau ilmu yg ada di kuliah itu sekarang juga bisa dipelajari otodidak di internet karena di dunia kerja itu ga peduli kamu lulusan mana yg penting bisa ngelakuin pekerjaannya dengan baik. Inget juga ilmu itu luas jadi gaada salahnya pelajari ilmu diluar dari passionmu, siapa tau itu bisa jadi nilai tambah buat karirmu nanti. NEXTTTT</p>
+               
+           <button class="btn-lanjutkan" onclick="tampilkanAlert4()">Next</button>
+    
+        </div>
+    </div>
+
+    <div id="overlay4" class="overlay">
+        <div class="modal">
+            <img src="burungg.png" alt="merpati" id="gambar1">
+            <p>Kalo ngomongin tentang seorang "Vidya" itu kayaknya simple deh, aku lambangin kayak burung merpati aja (untuk artinya cari sendiri :b) </p>
+               
+           <button class="btn-lanjutkan" onclick="tampilkanAlert5()">Next</button>
+    
+        </div>
+    </div>
+
+    <div id="overlay5" class="overlay">
+        <div class="modal">
+            <img src="bulan.png" alt="bulan" id="gambar2">
+            <p>Itu bulanmuu, oiya hadiah dariku juga bentuk bulan. Ada maknanya loo aku ngasi hadiah itu, artinya bulan itu gaakan bersinar terang tanpa lampunya(lanjut sendiri) oya aku ada suatu hal rahasia yg ku sembunyiin dari semua orng bahkan bisa dibilang dh nipu orng, keknya klo ada waktu yg pas aku mau spik ap apa itu klo kepo tanya lgsung(pria misterius). NEXTTT </p>
+               
+           <button class="btn-lanjutkan" onclick="tampilkanAlert6()">Next</button>
+    
+        </div>
+    </div>
+    <div id="overlay6" class="overlay">
+        <div class="modal">
+            <img src="petrik2.png" alt="merpati" id="gambar3">
+            <p>ada orang bilang, di umur 18 tahun itu adalah umur dimana lonjakan besar terjadi mau itu negatif atau positif. jadi... aku tunggu lonjakan positif dari vidya saharanii.. see u on top
+            </p>
+               
+           <button class="btn-lanjutkan" onclick="tampilkanAlert7()">Next</button>
+    
+        </div>
+    </div>
+
+
+    <div id="overlay7" class="overlay">
+        <div class="modal">
+            <img src="petrik.png" alt="merpati" id="gambar3">
+            <p>Karna manusia itu makhluk sosial, sabi kalii hidupin grop ALO hehehehehehehehe biar ga sepi notip gwee :b </p>
+               
+           <button class="btn-lanjutkan" onclick="tutupAlert()">Tutup</button>
+    
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <script>
+        function tampilkanAlert() {
+            var overlay = document.getElementById("overlay");
+            
+            overlay.style.display = "flex";
+            
+        }
+        function tampilkanAlert2() {
+            var overlay = document.getElementById("overlay2");
+            var overlay1 = document.getElementById("overlay");
+            overlay.style.display = "flex";
+            overlay1.style.display = "none";
+        }
+        function tampilkanAlert3() {
+            var overlay = document.getElementById("overlay3");
+            var overlay2 = document.getElementById("overlay2");
+            overlay.style.display = "flex";
+            overlay2.style.display = "none";
+        }
+        function tampilkanAlert4() {
+            var overlay = document.getElementById("overlay4");
+            var overlay3 = document.getElementById("overlay3");
+            overlay.style.display = "flex";
+            overlay3.style.display = "none";
+        }
+        function tampilkanAlert5() {
+            var overlay = document.getElementById("overlay5");
+            var overlay4 = document.getElementById("overlay4");
+            overlay.style.display = "flex";
+            overlay4.style.display = "none";
+        }
+        function tampilkanAlert6() {
+            var overlay = document.getElementById("overlay6");
+            var overlay4 = document.getElementById("overlay5");
+            overlay.style.display = "flex";
+            overlay4.style.display = "none";
+        }
+        function tampilkanAlert7() {
+            var overlay = document.getElementById("overlay7");
+            var overlay4 = document.getElementById("overlay6");
+            overlay.style.display = "flex";
+            overlay4.style.display = "none";
+        }
+        
+    
+        function tutupAlert() {
+            
+            var overlay5 = document.getElementById("overlay7");
+            overlay5.style.display = "none";
+            var overlay = document.getElementById("baten");
+            overlay.style.display = "none";
+
+            const element = document.getElementById("fotonya");
+            
+            element.style.display = "flex";
+            
+        }
+        function tutupAlert2() {
+            
+            var overlay6 = document.getElementById("overlay");
+            
+            overlay6.style.display = "none";
+        }
+    
+        
+    
+    
+        function toggleVisibility() {
+            const element = document.getElementById("imgbunga");
+            
+            element.style.display = "flex";
+            
+    }
+    function toggleVisibility2() {
+            const element = document.getElementById("yea");
+            
+            element.style.display = "flex";
+            
+    }
+    
+    
+        
+    </script>
+    
+    
+</body>
+
+
+
+</html>
